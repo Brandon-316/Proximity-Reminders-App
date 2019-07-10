@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841BD8E122CBA7A4002AD8E6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BD8E022CBA7A4002AD8E6 /* Extensions.swift */; };
+		841BD8E422CBA9E0002AD8E6 /* SetLocationMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BD8E322CBA9E0002AD8E6 /* SetLocationMapViewDelegate.swift */; };
 		8431969822C944A300D57B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431969722C944A300D57B06 /* AppDelegate.swift */; };
-		8431969B22C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8431969922C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld */; };
 		8431969D22C944A300D57B06 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431969C22C944A300D57B06 /* MasterViewController.swift */; };
 		8431969F22C944A300D57B06 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431969E22C944A300D57B06 /* DetailViewController.swift */; };
 		843196A222C944A300D57B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843196A022C944A300D57B06 /* Main.storyboard */; };
 		843196A422C944A500D57B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843196A322C944A500D57B06 /* Assets.xcassets */; };
 		843196A722C944A500D57B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843196A522C944A500D57B06 /* LaunchScreen.storyboard */; };
+		843196AF22C9A93A00D57B06 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843196AE22C9A93900D57B06 /* ReminderCell.swift */; };
+		844E6DC422CAC67000F3996F /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E6DC322CAC67000F3996F /* SetLocationViewController.swift */; };
+		844E6DC722CACFBE00F3996F /* LocationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844E6DC622CACFBE00F3996F /* LocationTableView.swift */; };
+		84607D1822CC304F0050465C /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84607D1722CC304F0050465C /* LocationCell.swift */; };
+		84B0B84222CD0F99008D57A8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B84122CD0F99008D57A8 /* LocationManager.swift */; };
+		84B0B84522CD4838008D57A8 /* MasterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B84422CD4838008D57A8 /* MasterDataSource.swift */; };
+		84B0B86F22CD69D4008D57A8 /* Proximity_Reminders_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8431969922C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld */; };
+		84B0B87022CD69E6008D57A8 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B86A22CD5681008D57A8 /* Reminder+CoreDataProperties.swift */; };
+		84B0B87222CD6CB7008D57A8 /* ReminderFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B87122CD6CB7008D57A8 /* ReminderFetchedResultsController.swift */; };
+		84B0B87422CE7CC6008D57A8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B87322CE7CC6008D57A8 /* CoreDataStack.swift */; };
+		84B0B87622D15E5B008D57A8 /* DetailMapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0B87522D15E5B008D57A8 /* DetailMapViewDelegate.swift */; };
+		84B0B87B22D3D7B9008D57A8 /* SimulatedLocations.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 84B0B87A22D3D7B9008D57A8 /* SimulatedLocations.gpx */; };
+		84B0B87D22D58328008D57A8 /* Austin.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 84B0B87C22D58328008D57A8 /* Austin.gpx */; };
+		84B0B88022D58A7F008D57A8 /* Zilker.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 84B0B87F22D58A7F008D57A8 /* Zilker.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841BD8E022CBA7A4002AD8E6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		841BD8E322CBA9E0002AD8E6 /* SetLocationMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationMapViewDelegate.swift; sourceTree = "<group>"; };
 		8431969422C944A300D57B06 /* Proximity Reminders App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proximity Reminders App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8431969722C944A300D57B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8431969A22C944A300D57B06 /* Proximity_Reminders_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proximity_Reminders_App.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +43,19 @@
 		843196A322C944A500D57B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843196A622C944A500D57B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843196A822C944A500D57B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843196AE22C9A93900D57B06 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		844E6DC322CAC67000F3996F /* SetLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
+		844E6DC622CACFBE00F3996F /* LocationTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableView.swift; sourceTree = "<group>"; };
+		84607D1722CC304F0050465C /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		84B0B84122CD0F99008D57A8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		84B0B84422CD4838008D57A8 /* MasterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterDataSource.swift; sourceTree = "<group>"; };
+		84B0B86A22CD5681008D57A8 /* Reminder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84B0B87122CD6CB7008D57A8 /* ReminderFetchedResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderFetchedResultsController.swift; sourceTree = "<group>"; };
+		84B0B87322CE7CC6008D57A8 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		84B0B87522D15E5B008D57A8 /* DetailMapViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapViewDelegate.swift; sourceTree = "<group>"; };
+		84B0B87A22D3D7B9008D57A8 /* SimulatedLocations.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SimulatedLocations.gpx; sourceTree = "<group>"; };
+		84B0B87C22D58328008D57A8 /* Austin.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Austin.gpx; sourceTree = "<group>"; };
+		84B0B87F22D58A7F008D57A8 /* Zilker.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Zilker.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841BD8E222CBA9C4002AD8E6 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				8431969E22C944A300D57B06 /* DetailViewController.swift */,
+				84B0B87522D15E5B008D57A8 /* DetailMapViewDelegate.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
 		8431968B22C944A300D57B06 = {
 			isa = PBXGroup;
 			children = (
+				84B0B86A22CD5681008D57A8 /* Reminder+CoreDataProperties.swift */,
 				8431969622C944A300D57B06 /* Proximity Reminders App */,
 				8431969522C944A300D57B06 /* Products */,
 			);
@@ -59,15 +99,68 @@
 			isa = PBXGroup;
 			children = (
 				8431969722C944A300D57B06 /* AppDelegate.swift */,
-				8431969C22C944A300D57B06 /* MasterViewController.swift */,
-				8431969E22C944A300D57B06 /* DetailViewController.swift */,
-				843196A022C944A300D57B06 /* Main.storyboard */,
+				84B0B84122CD0F99008D57A8 /* LocationManager.swift */,
+				841BD8E022CBA7A4002AD8E6 /* Extensions.swift */,
+				844E6DC522CAC67E00F3996F /* MasterVC */,
+				841BD8E222CBA9C4002AD8E6 /* DetailVC */,
+				844E6DC822CACFC600F3996F /* SetLocationTableVC */,
+				84B0B84322CD0FA0008D57A8 /* Model */,
+				84B0B88122D59993008D57A8 /* Storyboards */,
 				843196A322C944A500D57B06 /* Assets.xcassets */,
-				843196A522C944A500D57B06 /* LaunchScreen.storyboard */,
 				843196A822C944A500D57B06 /* Info.plist */,
-				8431969922C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld */,
+				84B0B87E22D5836C008D57A8 /* SimulatorLocations */,
 			);
 			path = "Proximity Reminders App";
+			sourceTree = "<group>";
+		};
+		844E6DC522CAC67E00F3996F /* MasterVC */ = {
+			isa = PBXGroup;
+			children = (
+				8431969C22C944A300D57B06 /* MasterViewController.swift */,
+				84B0B84422CD4838008D57A8 /* MasterDataSource.swift */,
+				843196AE22C9A93900D57B06 /* ReminderCell.swift */,
+			);
+			path = MasterVC;
+			sourceTree = "<group>";
+		};
+		844E6DC822CACFC600F3996F /* SetLocationTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				844E6DC322CAC67000F3996F /* SetLocationViewController.swift */,
+				841BD8E322CBA9E0002AD8E6 /* SetLocationMapViewDelegate.swift */,
+				844E6DC622CACFBE00F3996F /* LocationTableView.swift */,
+				84607D1722CC304F0050465C /* LocationCell.swift */,
+			);
+			path = SetLocationTableVC;
+			sourceTree = "<group>";
+		};
+		84B0B84322CD0FA0008D57A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84B0B87122CD6CB7008D57A8 /* ReminderFetchedResultsController.swift */,
+				84B0B87322CE7CC6008D57A8 /* CoreDataStack.swift */,
+				8431969922C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84B0B87E22D5836C008D57A8 /* SimulatorLocations */ = {
+			isa = PBXGroup;
+			children = (
+				84B0B87C22D58328008D57A8 /* Austin.gpx */,
+				84B0B87F22D58A7F008D57A8 /* Zilker.gpx */,
+				84B0B87A22D3D7B9008D57A8 /* SimulatedLocations.gpx */,
+			);
+			path = SimulatorLocations;
+			sourceTree = "<group>";
+		};
+		84B0B88122D59993008D57A8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				843196A022C944A300D57B06 /* Main.storyboard */,
+				843196A522C944A500D57B06 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +195,11 @@
 				TargetAttributes = {
 					8431969322C944A300D57B06 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,9 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B0B88022D58A7F008D57A8 /* Zilker.gpx in Resources */,
 				843196A722C944A500D57B06 /* LaunchScreen.storyboard in Resources */,
 				843196A422C944A500D57B06 /* Assets.xcassets in Resources */,
+				84B0B87D22D58328008D57A8 /* Austin.gpx in Resources */,
 				843196A222C944A300D57B06 /* Main.storyboard in Resources */,
+				84B0B87B22D3D7B9008D57A8 /* SimulatedLocations.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +242,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843196AF22C9A93A00D57B06 /* ReminderCell.swift in Sources */,
+				841BD8E122CBA7A4002AD8E6 /* Extensions.swift in Sources */,
+				84B0B86F22CD69D4008D57A8 /* Proximity_Reminders_App.xcdatamodeld in Sources */,
+				84B0B87222CD6CB7008D57A8 /* ReminderFetchedResultsController.swift in Sources */,
 				8431969822C944A300D57B06 /* AppDelegate.swift in Sources */,
-				8431969B22C944A300D57B06 /* Proximity_Reminders_App.xcdatamodeld in Sources */,
+				844E6DC722CACFBE00F3996F /* LocationTableView.swift in Sources */,
+				84B0B87422CE7CC6008D57A8 /* CoreDataStack.swift in Sources */,
 				8431969D22C944A300D57B06 /* MasterViewController.swift in Sources */,
+				84607D1822CC304F0050465C /* LocationCell.swift in Sources */,
+				84B0B84522CD4838008D57A8 /* MasterDataSource.swift in Sources */,
+				84B0B84222CD0F99008D57A8 /* LocationManager.swift in Sources */,
+				841BD8E422CBA9E0002AD8E6 /* SetLocationMapViewDelegate.swift in Sources */,
+				84B0B87022CD69E6008D57A8 /* Reminder+CoreDataProperties.swift in Sources */,
+				84B0B87622D15E5B008D57A8 /* DetailMapViewDelegate.swift in Sources */,
+				844E6DC422CAC67000F3996F /* SetLocationViewController.swift in Sources */,
 				8431969F22C944A300D57B06 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +413,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.brandonmahoney.Proximity-Reminders-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.brandonmahoney.Proximity-Reminders-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
